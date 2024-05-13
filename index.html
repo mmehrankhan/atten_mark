@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Marking System</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#attendance-status {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#attendance-history {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}  
+    </style>
+</head>
+<body>
+    <h1>Attendance Marking System</h1>
+    <form>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="name">
+        <button id="mark-attendance">Check</button>
+    </form>
+    <div id="attendance-status"></div>
+    <div id="attendance-history"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
